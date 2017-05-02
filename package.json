@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "ng2-daterangepicker@git+https://github.com/dstdfx/ng2-daterangepicker.git",
+      "/home/oleg/TrueLinReps/vtb_bot/app/static/admin-panel"
+    ]
+  ],
+  "_from": "git+https://github.com/dstdfx/ng2-daterangepicker.git",
+  "_id": "ng2-daterangepicker@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ng2-daterangepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/dstdfx/ng2-daterangepicker/master/package.json",
+      "gitUrl": "git://github.com/dstdfx/ng2-daterangepicker.git",
+      "httpsUrl": "git+https://github.com/dstdfx/ng2-daterangepicker.git",
+      "shortcut": "github:dstdfx/ng2-daterangepicker",
+      "ssh": "git@github.com:dstdfx/ng2-daterangepicker.git",
+      "sshUrl": "git+ssh://git@github.com/dstdfx/ng2-daterangepicker.git",
+      "type": "github"
+    },
+    "name": "ng2-daterangepicker",
+    "raw": "ng2-daterangepicker@git+https://github.com/dstdfx/ng2-daterangepicker.git",
+    "rawSpec": "git+https://github.com/dstdfx/ng2-daterangepicker.git",
+    "scope": null,
+    "spec": "git+https://github.com/dstdfx/ng2-daterangepicker.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/dstdfx/ng2-daterangepicker.git#b98ccdf79d04802386c0bc993c1ad23441e64ba0",
+  "_shasum": "d9323c0623022d7ee09d8a32637c92b179a42af0",
+  "_shrinkwrap": null,
+  "_spec": "ng2-daterangepicker@git+https://github.com/dstdfx/ng2-daterangepicker.git",
+  "_where": "/home/oleg/TrueLinReps/vtb_bot/app/static/admin-panel",
+  "author": {
+    "name": "simpul@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/simpulton/ng2-daterangepicker/issues"
+  },
+  "dependencies": {},
+  "description": "An Angular 2 Bootstrap date range picker wrapper",
+  "devDependencies": {},
+  "gitHead": "b98ccdf79d04802386c0bc993c1ad23441e64ba0",
+  "homepage": "https://github.com/simpulton/ng2-daterangepicker#readme",
+  "keywords": [
+    "angular",
+    "2",
+    "bootstrap",
+    "daterangepicker",
+    "datepicker"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "ng2-daterangepicker",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "2.0.0-rc.1",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4",
+    "moment": "^2.13.0",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "readme": "# ng2-daterangepicker\n> **NOTE:** this project was intended to be an internal prototype for us. As such, everyone is welcome to use it for their own purposes, we just will not be supporting it.\n\nA simple Angular 2 directive that wraps the Bootstrap date range picker found at http://www.daterangepicker.com/. To use this directive, you must include jQuery, momentJS, and Bootstrap CSS.\n\n## Installing\nTo install as an NPM package, run `npm i onehungrymind/ng2-daterangepicker --save`. Make sure to include the provided css file.\n\n## Usage\nImport the directive and provide it in the `directives` array on your component. In your template, use `daterangepicker` as an attribute on an `input` element. There is one input binding of `options` that expects an object of any options available at http://www.daterangepicker.com/#options.\n\nIf you would like to see the picker in action, take a look at the [ng2-daterangepicker-example](https://github.com/onehungrymind/ng2-daterangepicker-example).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpulton/ng2-daterangepicker.git"
+  },
+  "scripts": {},
+  "version": "0.0.1"
+}
